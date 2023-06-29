@@ -1,0 +1,221 @@
+* {
+  border: none !important;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Polaris-TopBar__Contents_1u1wn {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  justify-content: flex-end;
+  z-index: var(--p-z-index-1);
+}
+
+/* 
+.Polaris-TopBar__SearchField_ek145 {
+  margin: 0 auto;
+  margin: 0;
+  margin-right: var(--p-space-1);
+  max-width: 62.375rem;
+  max-width: none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+} */
+
+.WQAz1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.SZ91S,
+.jXxiw {
+  align-items: center;
+  display: flex;
+}
+
+.SZ91S {
+  height: 3.5rem;
+}
+
+.jXxiw {
+  background-color: inherit;
+  border: 0;
+  border-radius: var(--p-border-radius-1);
+  color: var(--p-color-text);
+  cursor: pointer;
+  font-size: inherit;
+  justify-content: center;
+  margin-right: var(--p-space-2);
+  min-width: 2.25rem;
+  padding: 0.375rem var(--p-space-1);
+  position: relative;
+  transition: background-color .1s;
+}
+
+.SZ91S,
+.jXxiw {
+  align-items: center;
+  display: flex;
+  padding: 0.625rem 0.625rem 0.625rem var(--p-space-2);
+}
+
+.jXxiw .Ge7ni {
+  height: 1.25rem;
+  /* width: 1.25rem; */
+}
+
+.Ge7ni {
+  display: flex;
+  gap: 0.4375rem;
+  height: 2rem;
+  padding: var(--p-space-1) var(--p-space-1);
+  width: max-content;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rS8ld {
+  height: 1rem;
+  width: 1rem;
+  color: #2aacbb;
+}
+
+.Polaris-Icon_yj27d {
+  display: block;
+  height: 1.25rem;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: 1.25rem;
+}
+
+._o7tR,
+.igRJK {
+  align-items: center;
+  display: flex;
+}
+
+._o7tR {
+  height: 3.5rem;
+}
+
+.igRJK {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  border: 0;
+  border-radius: var(--p-border-radius-1);
+  color: inherit;
+  color: var(--p-color-text);
+  cursor: pointer;
+  font-size: inherit;
+  justify-content: center;
+  line-height: inherit;
+  margin: 0;
+  margin-right: var(--p-space-2);
+  min-width: 2.25rem;
+  padding: 0;
+  padding: 0.625rem;
+  position: relative;
+  transition: background-color var(--p-motion-duration-100);
+}
+
+.Polaris-Icon__Svg_375hu {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.btn-primary {
+  --bs-btn-color: #000000 !important;
+  --bs-btn-bg: #ffffff !important;
+  --bs-btn-border-color: #ffffff !important;
+}
+
+/*  */
+.report {
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #87909b;
+  width: 40px;
+  position: relative;
+  transition: all 0.6s ease-in-out;
+}
+
+.report svg {
+  font-size: 22px;
+}
+
+.report p {
+  opacity: 0;
+  position: absolute;
+  right: -10;
+  /* transition: all 0.65s ease-in-out; */
+}
+
+.report:hover {
+  padding: 6px 12px;
+  color: #2463bc;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 140px;
+  transition: all 0.18s ease-in-out;
+}
+
+.report:hover p {
+  color: #2463bc;
+  margin-left: 6px !important;
+  opacity: 1;
+  right: 18px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-light {
+  border: 1px solid #00000080 !important;
+}
+
+.Polaris-Button--sizeSlim {
+  border: 1px solid #00000080 !important;
+}
+
+.list-group-item:hover {
+  background-color: #f1f2f4;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f2f4 !important;
+}
